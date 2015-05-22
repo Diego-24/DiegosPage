@@ -1,0 +1,11 @@
+body{
+	
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    font-family: 'Warnes', cursive;
+	text-align: center;
+	font-size: 80px;
+}
