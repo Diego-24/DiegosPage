@@ -1,11 +1,26 @@
-body{
-	
+body {
+	background-color: #0A2A29;
 }
 
 .parallax-window {
     min-height: 400px;
     background: transparent;
-    font-family: 'Warnes', cursive;
+    font-family: 'Kelly Slab', cursive;
 	text-align: center;
 	font-size: 80px;
+	color: #E6E6E6;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
+
+.carousel-caption {
+	background-color: black;
+	color: white;
+	font-family: 'Lora', serif;
+	opacity: 0.8;
+	margin-bottom: 30px;
 }
