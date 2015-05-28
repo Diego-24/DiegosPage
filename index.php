@@ -3,16 +3,20 @@
 <head>
 	<title></title>
 	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link href='http://fonts.googleapis.com/css?family=Kelly+Slab' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 	<div class="parallax-window" data-parallax="scroll" data-image-src="img/color-background.jpg">
-		Diego Sanchez<br>Web Designer
+		<br>
+		<div class="button animated bounceInLeft">Diego Sanchez</div>
+		<div class="button animated bounceInRight">Web Designer</div>
+		<br><br><br>
 	</div>
-	<div class="parallax-window" data-parallax="scroll" data-image-src="img/grey-background.jpg">
-		My Projects
+	<div class="parallax-window" data-parallax="scroll" data-image-src="img/grey-background.png">
+		<div class="button animated flipInX">My Projects</div>
 		<div class="container">
 			<br>
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -75,7 +79,12 @@
 		<br>
 	</div>
 	<div class="parallax-window" data-parallax="scroll" data-image-src="img/tech-background.jpg">
-		Contact Me<br>
+		<div class="button animated bounceInUp">Contact Me</div>
+		<br>
+		<address>
+			Send me an <a href="sanchezdiegoamazing@gmail.com">email</a> if you like what you see.<br>
+		</address>
+		<br>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="js/parallax.js"></script>
