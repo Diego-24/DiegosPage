@@ -11,8 +11,10 @@
 <body>
 	<div class="parallax-window" data-parallax="scroll" data-image-src="img/color-background.jpg">
 		<br>
-		<div class="button animated bounceInLeft">Diego Sanchez</div>
-		<div class="button animated bounceInRight">Web Designer</div>
+		<div class="name">
+			<div class="button animated bounceInLeft">Diego Sanchez</div>
+			<div class="button animated bounceInRight">Web Designer</div>
+		</div>
 		<br><br><br>
 	</div>
 	<div class="parallax-window" data-parallax="scroll" data-image-src="img/grey-background.png">
@@ -82,9 +84,12 @@
 		<div class="button animated bounceInUp">Contact Me</div>
 		<br>
 		<address>
-			Send me an <a href="sanchezdiegoamazing@gmail.com">email</a> if you like what you see.<br>
+			If you like what you see, send an <a href="https://www.gmail.com/intl/en/mail/help/about.html">email</a> to sanchezdiegoamazing@gmail.com<br>
 		</address>
 		<br>
+		<footer>
+			<h5>Website created by Diego Sanchez</h5>
+		</footer>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="js/parallax.js"></script>
